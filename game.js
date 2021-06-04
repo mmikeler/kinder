@@ -69,8 +69,8 @@ function drawCircle(ctx, x, y, radius, fill, stroke, strokeWidth) {
 }
 
 function addBuble(){
-    let x = getRandomInt(window.innerWidth);
-    let y = getRandomInt(window.innerHeight);
+    let x = getRandomArbitrary(100, window.innerWidth - 100);
+    let y = getRandomArbitrary(100, window.innerHeight - 100);
     let r = bord.radiusMin;
     let rMax = getRandomArbitrary(bord.radiusMax[0], bord.radiusMax[1]);
     let color = randomColor(bord.brightness);
