@@ -1,7 +1,7 @@
 let bord = {
-    brightness: 220,
+    brightness: 150,
     radiusMin: 0,
-    radiusMax: [100,150],
+    radiusMax: [80,120],
     progress: 1,
     count: 0, // Всего запущено пузырей
     click: 0, // Всего кликов
