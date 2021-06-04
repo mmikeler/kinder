@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#root:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('bg.jpg') repeat;
+    z-index: -1;
+    opacity: 0.1;
+}
+#score{
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(89, 241, 1, 0.5);
+}
